@@ -11,8 +11,8 @@ def pass_word():
       elif  input!=pin:
          print(" plzz enter corret pin")
          
+      
       else:
          print(" plz enter correct !")
-         
+               
 pass_word()
-      

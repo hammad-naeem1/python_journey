@@ -59,13 +59,14 @@ your item |{expenses[index]}|amount|{amounts[index]}|cetogary|{categories[index]
           if not expenses:
                 print(" no record ")
           else:
+            w=statistics.mean(amounts)
             a=min(amounts)
             b=max(amounts)
-            print(f" your total expense amount is {total_expense}")
-            print(f" your maxium expense amount is {b}")
-            print(f" your lowest expense amount is {a}")
-            w=statistics.mean(amounts)
-            print(f" your average expense amount is {w}")
+            print(f''' your total expense amount is {total_expense}
+your maxium expense amount is {b}
+your lowest expense amount is {a}
+your average expense amount is {w}
+''')
     elif option=="5":
               if not expenses:
                     print(" no record")

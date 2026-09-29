@@ -11,5 +11,3 @@ while True:
         break
 print(f" so your numbers are ::{my_list}",end="")
 
-for i in my_list %2:
-    print(my_list)

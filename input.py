@@ -1,15 +1,13 @@
 print(" welcome sir ")
 name=input(" what is your name sir ?? ::")
 password="python123"
-guess=""
-while guess!=password:
+while True:
     guess=input(" please enter your password::")
     if guess==password:
-        print(" correct password welcome !! MR",name)
+        print(f" correct password welcome !! MR{name}")
+        break
     else:
         print(" please enter the correct password sir ::")
-
-
 
 
 
