@@ -1,3 +1,4 @@
+import statistics
 students=[]
 marks=[]
 for  _ in range(3):
@@ -17,6 +18,7 @@ while option=="yes" :
     else:
         all_record=zip(students,marks)
         for student,mark in all_record:
-                                print(f" students|{studenet}|marks|{mark}|")
-                        
+                     print(f" students|{studenet}|marks|{mark}|")
+    print(f" class min marks|{min(marks)} _ class highest mark |{max(marks)}|")
+    print(f"average of class|{statistics.mean(mark)}")          
     break

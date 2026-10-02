@@ -8,7 +8,7 @@ products={
         "lemon": 300                                         
 }
 for i in products:
-    print(i,products[i],       sep="__")
+    print(i,products[i],sep="__")
 user_input=""
 while True:
     user_input=input(" what you want sir??__")
@@ -20,8 +20,7 @@ while True:
 price = products[user_input]
 total = price * quantity
 
-q=print(f'''Here is your bill__ {total}
-here are our payment options sir : card // cash  ?''')
+print(f"here are our payment options sir : card // cash  ?")
 while True :
     card_payment=input(" enter a payment please!!__")
     if card_payment=="card":
@@ -36,7 +35,7 @@ print(f'''         Here Is Your Recipt SIR!!
 costumer__{name}
 product__{user_input}
 quantity__{quantity}
-total__{total}
+total__{total}$
 payment__{card_payment}
 THANKS FOR SHOPPING SIR!!''')
 
