@@ -17,7 +17,7 @@ class employee:
     def get_info(self):
         return f"{self.name}={self.positon}"
     # this is a instance_method 
-
+p
     @staticmethod
     def is_valid_position(position):
         valid_position=["manager","cashier",'boss','watchman']
